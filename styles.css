@@ -821,6 +821,10 @@ summary:focus-visible {
 .organizer-email:hover,
 .organizer-email:focus-visible { color: #125b67; text-decoration-color: currentColor; }
 
+@media (min-width: 701px) {
+  .organizer-card:last-child:nth-child(odd) { grid-column: 1 / -1; width: calc((100% - 22px) / 2); justify-self: center; }
+}
+
 .program-chair-card {
   margin-top: 32px;
   padding: 24px 28px;
