@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A2NetOps 2027, the AAAI-27 workshop on reliable AI agents for autonomous network operations, causal reasoning, uncertainty, and safe action.">
+  <meta name="theme-color" content="#040b18">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="A2NetOps 2027 | AAAI-27 Workshop on Autonomous Network Operations">
+  <meta property="og:description" content="Causal reasoning, calibrated uncertainty, and safe agentic automation for autonomous network operations.">
+  <meta property="og:url" content="https://a2netops.github.io/">
+  <meta property="og:image" content="https://a2netops.github.io/assets/hero-autonomous-netops.jpg">
+  <meta property="og:image:alt" content="Abstract network topology connected to an AI reasoning and control loop">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>A2NetOps 2027 | AAAI-27 Workshop on Autonomous Network Operations</title>
+  <link rel="canonical" href="https://a2netops.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/hero-autonomous-netops.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="A2NetOps 2027 workshop home">
+        <span class="brand-signal" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-copy"><strong>A²NetOps 2027</strong><small>AAAI-27 Workshop</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="primary-links">
+        <ul class="nav-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#questions">Research</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#participate">CFP &amp; dates</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+        </ul>
+        <a class="nav-cta" href="#participate">Submission details</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/hero-autonomous-netops.jpg" alt="">
+      </div>
+      <div class="hero-shell">
+        <div class="hero-copy-block">
+          <div class="hero-kicker">
+            <span class="accepted-badge">Accepted</span>
+            <span>A²NetOps 2027 · AAAI-27 Workshop · Montréal</span>
+          </div>
+          <h1>Agents for Autonomous<br><em>Network Operations</em></h1>
+          <p class="hero-subtitle">Causal Reasoning, Uncertainty, and Safe Action</p>
+          <p class="hero-intro">A research forum for AI agents that can diagnose operational failures, decide under uncertainty, and use network-automation tools with safeguards.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#participate">Call for participation <span aria-hidden="true">↗</span></a>
+            <a class="button ghost" href="https://aaai.org/conference/aaai/aaai-27/" target="_blank" rel="noopener">AAAI-27 conference</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span></span>Explore the workshop</div>
+    </section>
+
+    <section class="fact-rail" aria-label="Workshop facts">
+      <div class="fact-shell">
+        <div class="fact"><span>Format</span><strong>One-day workshop</strong><small>In-person talks · remote attendance for registered workshop participants</small></div>
+        <div class="fact"><span>When</span><strong>February 22 or 23, 2027</strong><small>Exact day to be assigned</small></div>
+        <div class="fact"><span>Where</span><strong>Montréal, Canada</strong><small>Palais des congrès</small></div>
+        <div class="fact accent"><span>Submission deadline</span><strong>November 20, 2026</strong><small>Anywhere on Earth (UTC−12)</small></div>
+      </div>
+    </section>
+
+    <aside class="update-bar" aria-label="Latest update">
+      <div class="page-shell update-shell">
+        <span class="pulse" aria-hidden="true"></span>
+        <time datetime="2026-09-28">Sep 28, 2026</time>
+        <p>The A2NetOps OpenReview venue is live. Submissions open October 16, 2026.</p>
+        <a href="https://openreview.net/group?id=AAAI.org/2027/Workshop/A2NetOps" target="_blank" rel="noopener">Open OpenReview</a>
+      </div>
+    </aside>
+
+    <section class="section" id="overview">
+      <div class="page-shell">
+        <div class="section-head wide">
+          <p class="section-index"><span>01</span> Overview</p>
+          <h2>Autonomy begins with evidence,<br>not with an action.</h2>
+        </div>
+        <div class="overview-grid">
+          <div class="lead-copy">
+            <p>AI agents operating on live networks must do more than answer questions. They must combine topology, telemetry, logs, alarms, tickets, configuration state, and tool outputs; determine what evidence to gather next; distinguish causes from correlations; and know when to act, request approval, roll back, or escalate.</p>
+            <p>This workshop brings together foundational AI researchers and practitioners who build and operate real networks. We treat <strong>network operations</strong> as a concrete scientific testbed, <strong>network automation</strong> as the enabling capability, and <strong>autonomous networking</strong> as the longer-term objective.</p>
+          </div>
+          <aside class="scope-card">
+            <span class="scope-label">Our scope</span>
+            <p>Reliable decision-and-action loops for NetOps: grounded diagnosis, uncertainty-aware evidence gathering, governed tool use, rollback-aware remediation, and post-action verification.</p>
+            <div class="scope-divider"></div>
+            <p class="scope-note"><strong>Distinct from cybersecurity:</strong> our central problem is operating and automating networks, not threats, attacks, malware, or defensive methods.</p>
+          </aside>
+        </div>
+        <div class="audience-strip">
+          <span>Who should join</span>
+          <ul>
+            <li>AI agents</li><li>Causal inference</li><li>Reinforcement learning</li><li>Uncertainty</li><li>Networking</li><li>AIOps &amp; SRE</li><li>ML for systems</li><li>Enterprise AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research-section" id="questions">
+      <div class="page-shell">
+        <div class="section-head">
+          <p class="section-index"><span>02</span> Research questions</p>
+          <h2>Three questions define the workshop.</h2>
+          <p>We focus on the complete path from heterogeneous operational evidence to a verifiable, governed intervention.</p>
+        </div>
+        <div class="question-grid">
+          <article class="question-card cyan">
+            <span class="question-no">Q1</span>
+            <h3>What happened?</h3>
+            <p>How can agents fuse noisy operational signals, reason causally and counterfactually, and localize root causes rather than merely correlate symptoms?</p>
+            <ul><li>Grounded diagnosis</li><li>Causal and counterfactual reasoning</li><li>Topology-aware inference</li></ul>
+          </article>
+          <article class="question-card blue">
+            <span class="question-no">Q2</span>
+            <h3>What should happen next?</h3>
+            <p>How should an agent gather additional evidence, select tools and APIs, calibrate uncertainty, and choose between acting, asking, and escalating?</p>
+            <ul><li>Active evidence gathering</li><li>Sequential decisions</li><li>Risk-aware escalation</li></ul>
+          </article>
+          <article class="question-card amber">
+            <span class="question-no">Q3</span>
+            <h3>How can it act safely?</h3>
+            <p>How can network actions be validated, governed, audited, rolled back, and verified under real operational constraints?</p>
+            <ul><li>Safe tool and API use</li><li>Rollback-aware remediation</li><li>Post-action verification</li></ul>
+          </article>
+        </div>
+
+        <div class="topic-board" aria-labelledby="topics-title">
+          <div class="topic-board-head">
+            <p class="micro-label">Topics of interest</p>
+            <h3 id="topics-title">Work across methods, systems, and evaluation is welcome.</h3>
+          </div>
+          <div class="topic-list">
+            <article><span>01</span><div><h4>Causal operational diagnosis</h4><p>Root-cause localization, intervention analysis, and counterfactual reasoning.</p></div></article>
+            <article><span>02</span><div><h4>Active evidence gathering</h4><p>Tool selection, stopping rules, partial observability, and delayed outcomes.</p></div></article>
+            <article><span>03</span><div><h4>Agentic network automation</h4><p>Intent translation, configuration validation, planning, and closed-loop control.</p></div></article>
+            <article><span>04</span><div><h4>Training and adaptation</h4><p>Learning from sparse, heterogeneous, privacy-sensitive operational data and feedback.</p></div></article>
+            <article><span>05</span><div><h4>Evaluation and validation</h4><p>Controlled experiments, process-level metrics, reliability testing, and reproducible protocols.</p></div></article>
+            <article><span>06</span><div><h4>Safe autonomy and oversight</h4><p>Human approval, governed execution, auditability, rollback, and verification.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="speakers">
+      <div class="page-shell">
+        <div class="section-head split-head">
+          <div>
+            <p class="section-index"><span>03</span> Invited speakers</p>
+            <h2>Confirmed perspectives from research and deployed AI.</h2>
+          </div>
+          <p>Talk titles and biographies will be announced with the program. Affiliations reflect current information provided by the organizers.</p>
+        </div>
+        <div class="speaker-grid">
+          <article class="speaker-card"><img class="speaker-photo" src="assets/people/ting-he.jpg" alt="" width="224" height="224" loading="lazy" decoding="async"><span class="confirmed">Confirmed</span><h3><a class="person-link" href="https://pure.psu.edu/en/persons/ting-he/" target="_blank" rel="noopener">Ting He</a></h3><p>Professor of Computer Science and Engineering</p><strong>Pennsylvania State University</strong></article>
+          <article class="speaker-card"><img class="speaker-photo" src="assets/people/jian-tan.jpg" alt="" width="224" height="224" loading="lazy" decoding="async"><span class="confirmed">Confirmed</span><h3><a class="person-link" href="https://www.linkedin.com/in/jian-tan-a15519" target="_blank" rel="noopener">Jian Tan</a></h3><p>Senior Staff Software Engineer · LLM Training</p><strong>Google</strong></article>
+          <article class="speaker-card"><img class="speaker-photo" src="assets/people/emily-pitler.jpg" alt="" width="224" height="224" loading="lazy" decoding="async"><span class="confirmed">Confirmed</span><h3><a class="person-link" href="https://www.linkedin.com/in/emily-pitler-93b7291" target="_blank" rel="noopener">Emily Pitler</a></h3><p>Senior Staff Research Scientist</p><strong>Google DeepMind</strong></article>
+          <article class="speaker-card"><img class="speaker-photo" src="assets/people/jp-vasseur.jpg" alt="" width="224" height="224" loading="lazy" decoding="async"><span class="confirmed">Confirmed</span><h3><a class="person-link" href="https://jpvasseur.me/" target="_blank" rel="noopener">JP Vasseur</a></h3><p>Senior Distinguished Engineer &amp; Chief Architect</p><strong>NVIDIA</strong></article>
+          <article class="speaker-card"><div class="speaker-photo speaker-monogram" role="img" aria-label="Ali Dabir">AD</div><span class="confirmed">Confirmed</span><h3>Ali Dabir</h3><p>Principal Machine Learning Engineer</p><strong>Cisco</strong></article>
+          <article class="speaker-card"><img class="speaker-photo" src="assets/people/yury-sokolov.jpg" alt="" width="224" height="224" loading="lazy" decoding="async"><span class="confirmed">Confirmed</span><h3><a class="person-link" href="https://www.linkedin.com/in/ysokol" target="_blank" rel="noopener">Yury Sokolov</a></h3><p>Principal AI Researcher</p><strong>Cisco</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section program-section" id="program">
+      <div class="page-shell">
+        <div class="section-head">
+          <p class="section-index"><span>04</span> Program</p>
+          <h2>Designed for exchange, not a day of back-to-back lectures.</h2>
+          <p>The final agenda will follow the session and break times assigned by AAAI. Exact talk titles, times, room, and workshop day remain to be announced.</p>
+        </div>
+        <div class="program-flow" aria-label="Planned workshop format">
+          <article><span class="program-time">Start</span><strong>Opening &amp; framing</strong><p>Shared questions, scope, and goals</p></article>
+          <article><span class="program-time">Talks</span><strong>Invited perspectives</strong><p>AI methods, networks, and deployed systems</p></article>
+          <article><span class="program-time">Research</span><strong>Contributed work</strong><p>Orals selected through peer review</p></article>
+          <article><span class="program-time">Methods</span><strong>Training &amp; evaluation</strong><p>Learning, validation, and empirical findings</p></article>
+          <article><span class="program-time">Discussion</span><strong>Panel &amp; open problems</strong><p>A structured community research agenda</p></article>
+          <article><span class="program-time">Exchange</span><strong>Posters &amp; demos</strong><p>Hands-on systems and direct interaction</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section participate-section" id="participate">
+      <div class="page-shell">
+        <div class="section-head light-head">
+          <p class="section-index light"><span>05</span> Call for participation</p>
+          <h2>Help define the next generation of autonomous NetOps.</h2>
+          <p>We welcome research, work in progress, well-grounded positions, deployed-system experience, and demonstrations.</p>
+        </div>
+        <div class="participate-grid">
+          <div class="call-card">
+            <div class="call-card-head">
+              <a class="status-pill dark-pill" href="https://openreview.net/group?id=AAAI.org/2027/Workshop/A2NetOps" target="_blank" rel="noopener">OpenReview · opens Oct 16</a>
+              <h3>Contribution types</h3>
+              <p>Contributions should advance reliable, auditable, and controllable agents for network automation and autonomous network operations.</p>
+            </div>
+            <div class="submission-grid">
+              <span>Full papers · up to 8 pages</span><span>Short papers · up to 4 pages</span><span>Position papers · up to 4 pages</span><span>Demo papers · up to 4 pages</span>
+            </div>
+            <div class="pending-policy">
+              <strong>Submission requirements</strong>
+              <p>Full papers may be up to 8 pages; short, position, and demo papers may be up to 4 pages. Page limits include references. Use the two-column format in the <a href="https://aaai.org/authorkit27/" target="_blank" rel="noopener">AAAI-27 Author Kit (ZIP)</a>. Submissions will be evaluated for relevance, technical quality, clarity, and potential to stimulate discussion. At least one author of each accepted submission must present in person. The review mode, dual-submission policy, and optional dissemination arrangements will be posted before submissions open.</p>
+              <p>Authors should create or update their OpenReview profiles well before the deadline. New profiles without an institutional email may require moderation; profiles created with an institutional email are activated automatically.</p>
+            </div>
+          </div>
+          <aside class="dates-card" aria-labelledby="dates-title">
+            <p class="micro-label">Important dates</p>
+            <h3 id="dates-title">Mark your calendar.</h3>
+            <ol class="date-list">
+              <li><time datetime="2026-10-16">Oct 16, 2026</time><span>OpenReview submissions open</span><small>12:00 AM AoE (UTC−12)</small></li>
+              <li><time datetime="2026-11-20">Nov 20, 2026</time><span>Workshop submissions due</span><small>11:59 PM AoE (UTC−12)</small></li>
+              <li><time datetime="2026-12-02">Dec 2, 2026</time><span>Author notifications</span></li>
+              <li><time datetime="2026-12-15">Dec 15, 2026</time><span>AAAI-27 early registration ends</span></li>
+              <li><span class="date-window">Feb 22 or 23, 2027</span><span>One-day workshop</span><small>Exact day and room TBA</small></li>
+            </ol>
+          </aside>
+        </div>
+        <div class="policy-row">
+          <article><span aria-hidden="true">↗</span><div><strong>Presentation &amp; remote attendance</strong><p>All presentations must be delivered in person; virtual presentations are not permitted. Registered workshop participants may attend remotely through AAAI-provided facilities.</p></div></article>
+          <article><span aria-hidden="true">◎</span><div><strong>Registration</strong><p>We expect approximately 40–60 participants. Attendance is open to registered AAAI-27 workshop participants on a first-come, first-served basis, subject to room capacity. See <a href="https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/" target="_blank" rel="noopener">AAAI-27 registration details</a>.</p></div></article>
+          <article><span aria-hidden="true">≡</span><div><strong>OpenReview &amp; publication</strong><p>Titles, abstracts, and author lists of accepted submissions will be public on OpenReview. Submission PDFs will remain private unless the organizers later announce and explicitly enable their release. AAAI does not publish workshop papers in the AAAI Digital Library.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="organizers">
+      <div class="page-shell">
+        <div class="section-head split-head">
+          <div>
+            <p class="section-index"><span>06</span> Organizers</p>
+            <h2>Connecting AI, networking, and deployment.</h2>
+          </div>
+          <p>Questions about the workshop may be directed to the workshop chair and main contact.</p>
+        </div>
+        <div class="organizer-grid">
+          <article class="organizer-card"><img class="organizer-photo" src="assets/people/yuqing-gao.jpg" alt="" width="176" height="176" loading="lazy" decoding="async"><div><span class="team-role">Workshop chair &amp; main contact</span><h3><a class="person-link" href="https://blogs.cisco.com/author/yuqingga" target="_blank" rel="noopener">Yuqing Gao</a></h3><p>Cisco</p><a class="organizer-email" href="mailto:yuqingga@cisco.com">yuqingga@cisco.com</a></div></article>
+          <article class="organizer-card"><img class="organizer-photo" src="assets/people/ting-he.jpg" alt="" width="176" height="176" loading="lazy" decoding="async"><div><span class="team-role">Workshop committee</span><h3><a class="person-link" href="https://pure.psu.edu/en/persons/ting-he/" target="_blank" rel="noopener">Ting He</a></h3><p>Pennsylvania State University</p><a class="organizer-email" href="mailto:tinghe@psu.edu">tinghe@psu.edu</a></div></article>
+          <article class="organizer-card"><img class="organizer-photo" src="assets/people/jp-vasseur.jpg" alt="" width="176" height="176" loading="lazy" decoding="async"><div><span class="team-role">Workshop committee</span><h3><a class="person-link" href="https://jpvasseur.me/" target="_blank" rel="noopener">JP Vasseur</a></h3><p>NVIDIA</p><a class="organizer-email" href="mailto:jvasseur@nvidia.com">jvasseur@nvidia.com</a></div></article>
+          <article class="organizer-card"><img class="organizer-photo portrait-wide" src="assets/people/imed-zitouni.jpg" alt="" width="176" height="176" loading="lazy" decoding="async"><div><span class="team-role">Workshop committee</span><h3><a class="person-link" href="https://www.linkedin.com/in/imed-zitouni-0829" target="_blank" rel="noopener">Imed Zitouni</a></h3><p>Meta</p><a class="organizer-email" href="mailto:imed.zitouni@gmail.com">imed.zitouni@gmail.com</a></div></article>
+        </div>
+
+        <div class="program-chair-card">
+          <div><span class="team-role">Program chair</span><h3>Fan Bu</h3><p>Cisco</p></div>
+          <a class="organizer-email" href="mailto:fabu@cisco.com">fabu@cisco.com</a>
+        </div>
+
+        <details class="committee">
+          <summary><span>Confirmed program committee</span><small>17 members</small></summary>
+          <ul class="committee-list">
+            <li><strong>Slava Agafonov</strong><span>Cisco</span></li>
+            <li><strong>Jian Tan</strong><span>Google</span></li>
+            <li><strong>Lei Jin</strong><span>Cisco</span></li>
+            <li><strong>Ali Dabir</strong><span>Cisco</span></li>
+            <li><strong>Borya Sobolev</strong><span>Cisco</span></li>
+            <li><strong>Doosan Jung</strong><span>Cisco</span></li>
+            <li><strong>Hamid Almsi</strong><span>Cisco</span></li>
+            <li><strong>Li Zhang</strong><span>Cisco</span></li>
+            <li><strong>Ye Li</strong><span>Cisco</span></li>
+            <li><strong>Yury Sokolov</strong><span>Cisco</span></li>
+            <li><strong>Ling Wu</strong><span>Google Gemini Research</span></li>
+            <li><strong>Wenjing Xu</strong><span>Microsoft AI</span></li>
+            <li><strong>Jisheng Liang</strong><span>Airbnb AI Research</span></li>
+            <li><strong>Mohamed Yakout</strong><span>Visa</span></li>
+            <li><strong>Rishabh Kumar</strong><span>Airbnb</span></li>
+            <li><strong>Sumeet Ram</strong><span>PayPal</span></li>
+            <li><strong>Dev Khanolkar</strong><span>Cisco</span></li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="page-shell faq-layout">
+        <div>
+          <p class="section-index"><span>07</span> FAQ</p>
+          <h2>What participants should know.</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Is this a cybersecurity workshop?</summary><p>No. The workshop focuses on network operations, network automation, and autonomous networking rather than threat, attack, malware, or defense methods.</p></details>
+          <details><summary>Can I present remotely?</summary><p>No. All presentations must be delivered in person; virtual presentations are not permitted. Registered workshop participants may attend remotely through AAAI-provided facilities.</p></details>
+          <details><summary>Will papers appear in the AAAI Digital Library?</summary><p>No. AAAI does not publish workshop papers in the AAAI Digital Library. Titles, abstracts, and author lists of accepted submissions will be public on OpenReview; submission PDFs will remain private unless the organizers later announce and explicitly enable their release.</p></details>
+          <details><summary>Which day is the workshop?</summary><p>AAAI-27 workshops run February 22–23, 2027. The exact day and room for this one-day workshop will be posted after AAAI assigns them.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-grid">
+      <div>
+        <p class="footer-kicker">A²NetOps 2027 · AAAI-27 · Montréal, Canada</p>
+        <h2>Agents for Autonomous Network Operations</h2>
+        <p>Causal Reasoning, Uncertainty, and Safe Action</p>
+      </div>
+      <div class="footer-links">
+        <a href="#participate">Call for participation</a>
+        <a href="mailto:yuqingga@cisco.com">Contact the chair</a>
+        <a href="https://aaai.org/conference/aaai/aaai-27/" target="_blank" rel="noopener">AAAI-27 conference</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+    <div class="page-shell footer-bottom">
+      <span>Workshop website · information will be updated as details are confirmed</span>
+      <span>© 2026 Organizing Committee</span>
+    </div>
+  </footer>
+</body>
+</html>

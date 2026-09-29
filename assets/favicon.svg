@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Autonomous network operations workshop mark">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b2340"/>
+      <stop offset="1" stop-color="#040b18"/>
+    </linearGradient>
+    <linearGradient id="line" x1="18" y1="45" x2="45" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4b7bff"/>
+      <stop offset="1" stop-color="#6ce6f2"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#bg)" stroke="#2a7280" stroke-width="2"/>
+  <path d="M18 43 31 20l15 23M18 43h28" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="31" cy="20" r="5" fill="#6ce6f2"/>
+  <circle cx="18" cy="43" r="5" fill="#4b7bff"/>
+  <circle cx="46" cy="43" r="5" fill="#25d5ca"/>
+</svg>
