@@ -838,6 +838,7 @@ summary:focus-visible {
 }
 .program-chair-card h3 { margin: 7px 0 0; font-size: 20px; }
 .program-chair-card p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+.program-section-title { color: var(--ink); font-size: 13px; font-weight: 850; }
 
 .committee { margin-top: 32px; overflow: hidden; border: 1px solid var(--line); border-radius: 21px; background: var(--white); }
 .committee summary { padding: 25px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; cursor: pointer; font-size: 13px; font-weight: 850; list-style: none; }
@@ -849,7 +850,6 @@ summary:focus-visible {
 .committee-list li { min-width: 0; padding: 12px 0; display: grid; align-content: start; border-top: 1px solid #e4eaf0; }
 .committee-list strong { font-size: 12px; }
 .committee-list span { margin-top: 2px; color: var(--muted); font-size: 10px; }
-.committee-title { line-height: 1.35; }
 .committee-email { margin-top: 4px; color: #1b7280; font-size: 10px; font-weight: 650; line-height: 1.35; overflow-wrap: anywhere; text-decoration-color: rgba(27, 114, 128, 0.38); text-underline-offset: 0.14em; }
 .committee-email:hover,
 .committee-email:focus-visible { color: #125b67; text-decoration-color: currentColor; }
