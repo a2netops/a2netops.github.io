@@ -705,15 +705,6 @@ summary:focus-visible {
 }
 
 .speaker-card:hover .speaker-photo { transform: scale(1.025); }
-.speaker-monogram {
-  display: grid;
-  place-items: center;
-  color: #0d6674;
-  background: linear-gradient(145deg, #dff6f7, #e9efff);
-  font-size: 32px;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-}
 .confirmed {
   position: absolute;
   top: 30px;
