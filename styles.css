@@ -832,18 +832,12 @@ summary:focus-visible {
   border-radius: 21px;
   background: var(--white);
 }
-.program-chair-row {
-  padding: 21px 30px;
-  display: grid;
-  grid-template-columns: 130px minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 24px;
-}
-.program-chair-person { display: flex; align-items: baseline; gap: 10px; }
+.program-chair-heading { padding: 25px 30px; color: var(--ink); font-size: 13px; font-weight: 850; }
+.program-chair-entry { margin: 0 25px; padding: 12px 0 18px; display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; border-top: 1px solid #e4eaf0; }
+.program-chair-person { display: grid; align-content: start; }
 .program-chair-person strong { font-size: 12px; }
-.program-chair-person span { color: var(--muted); font-size: 10px; }
+.program-chair-person span { margin-top: 2px; color: var(--muted); font-size: 10px; }
 .program-chair-email { font-size: 10px; }
-.program-section-title { color: var(--ink); font-size: 13px; font-weight: 850; }
 
 .committee { overflow: hidden; border-top: 1px solid var(--line); }
 .committee summary { padding: 25px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; cursor: pointer; font-size: 13px; font-weight: 850; list-style: none; }
@@ -999,8 +993,6 @@ summary:focus-visible {
   .submission-grid { grid-template-columns: 1fr; }
   .organizer-grid { grid-template-columns: 1fr; }
   .organizer-card { min-height: 0; padding: 25px; }
-  .program-chair-row { grid-template-columns: 1fr auto; gap: 7px 20px; }
-  .program-chair-row .program-section-title { grid-column: 1 / -1; }
   .committee-list { grid-template-columns: repeat(2, 1fr); }
   .committee summary small { display: none; }
   .faq-section { padding-top: 94px; }
@@ -1009,6 +1001,7 @@ summary:focus-visible {
 }
 
 @media (max-width: 560px) {
+  .program-chair-entry { flex-direction: column; gap: 7px; }
   .committee-list { grid-template-columns: 1fr; }
   .committee-list li { padding: 14px 0; }
 }
