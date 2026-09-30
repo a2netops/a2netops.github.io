@@ -825,22 +825,27 @@ summary:focus-visible {
   .organizer-card:last-child:nth-child(odd) { grid-column: 1 / -1; width: calc((100% - 22px) / 2); justify-self: center; }
 }
 
-.program-chair-card {
+.program-team-card {
   margin-top: 32px;
-  padding: 24px 28px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 21px;
-  background: linear-gradient(135deg, #f5fafb, #f7f8fd);
+  background: var(--white);
 }
-.program-chair-card h3 { margin: 7px 0 0; font-size: 20px; }
-.program-chair-card p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+.program-chair-row {
+  padding: 21px 30px;
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+}
+.program-chair-person { display: flex; align-items: baseline; gap: 10px; }
+.program-chair-person strong { font-size: 12px; }
+.program-chair-person span { color: var(--muted); font-size: 10px; }
+.program-chair-email { font-size: 10px; }
 .program-section-title { color: var(--ink); font-size: 13px; font-weight: 850; }
 
-.committee { margin-top: 32px; overflow: hidden; border: 1px solid var(--line); border-radius: 21px; background: var(--white); }
+.committee { overflow: hidden; border-top: 1px solid var(--line); }
 .committee summary { padding: 25px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; cursor: pointer; font-size: 13px; font-weight: 850; list-style: none; }
 .committee summary::-webkit-details-marker { display: none; }
 .committee summary::after { content: "+"; width: 29px; height: 29px; display: grid; place-items: center; border-radius: 9px; color: #176b78; background: #e7f5f7; font-size: 18px; }
@@ -994,7 +999,8 @@ summary:focus-visible {
   .submission-grid { grid-template-columns: 1fr; }
   .organizer-grid { grid-template-columns: 1fr; }
   .organizer-card { min-height: 0; padding: 25px; }
-  .program-chair-card { align-items: flex-start; flex-direction: column; }
+  .program-chair-row { grid-template-columns: 1fr auto; gap: 7px 20px; }
+  .program-chair-row .program-section-title { grid-column: 1 / -1; }
   .committee-list { grid-template-columns: repeat(2, 1fr); }
   .committee summary small { display: none; }
   .faq-section { padding-top: 94px; }
