@@ -439,6 +439,8 @@ summary:focus-visible {
 .fact.accent { color: var(--white); background: linear-gradient(145deg, #0a2944, #075160); }
 .fact.accent::before { display: none; }
 .fact.accent span, .fact.accent small { color: #b6e9ee; }
+.deadline-values { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 10px; }
+.fact .deadline-values del { color: #a7c2cd; text-decoration-thickness: 1px; }
 
 .update-bar { padding: 19px 0 0; }
 .update-shell {
@@ -787,6 +789,8 @@ summary:focus-visible {
 .date-list li::before { content: ""; position: absolute; z-index: 1; left: 0; top: 5px; width: 11px; height: 11px; border: 3px solid #0a1b31; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 1px rgba(108, 230, 242, 0.4); }
 .date-list time,
 .date-list .date-window { color: var(--cyan); font-size: 11px; font-weight: 900; letter-spacing: 0.03em; }
+.date-list .deadline-values del,
+.date-list .deadline-values del time { color: #91a6b8; text-decoration-thickness: 1px; }
 .date-list span { margin-top: 3px; font-size: 13px; font-weight: 750; }
 .date-list small { margin-top: 2px; color: #a5b7c9; font-size: 11px; }
 
